@@ -184,3 +184,101 @@ a
 	color:#5297e2 !important;
 	background-color: rgba(82, 151, 226, .3);
 }
+.messages-3amgkR, .welcomeMessage-3_Mcht, .containerCozy-B4noqO:not(:empty).containerCozy-B4noqO:not(:empty), .message-1PNnaP, .containerCozyBounded-1rKFAn
+{
+background-color: #424752;
+}
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3
+{
+background-color: #303641;
+}
+.theme-dark .textArea-2Spzkt, .theme-dark .typing-2GQL18
+{
+background-color: #424752;
+}
+.guilds-1q_RqH, .theme-dark .typing-2GQL18
+{
+background-color: #303641;
+}
+.app .welcomeMessage-3_Mcht h1
+{
+color: #5294e2;
+}
+.updateIconForeground-2jeItf
+{
+    fill: #5294e2;
+}
+.theme-dark #memberCount
+{
+    background-color:#3b3f4b;
+}
+.newMessagesBar-mujexs button:first-child
+{
+     background-color: #5294e2;
+}
+ .newMessagesBar-mujexs button:last-child:hover
+{
+    color: #fff;
+}
+ .newMessagesBar-mujexs button:last-child
+ {
+    background-color: #5294e2;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary
+{
+    background-color: #5294e2;
+}
+#memberCount
+{
+    background-color:#3b3f4b;
+}
+.theme-dark .hasMore-3e72_v button
+{
+    color: #5294e2;
+    background-color: #3b3f4b;
+}
+.theme-dark .divider-3gKybi span
+{
+    background-color: rgba(0,0,0,0);
+}
+.search-bar .search-bar-inner
+{
+    background-color: #303641;
+}
+.quickswitcher-3JagVE, .quickswitcher-3JagVE 
+{
+background-color:#3b3f4b !important;
+}
+.theme-dark .input-2VB9rf
+{
+    background-color: #7c818c;
+}
+.theme-dark .resultFocused-3aIoYe
+{
+    background-color: #303641;
+}
+.actionButton-3W1xZa
+{
+    color: #5294e2;
+}
+.container-2Thooq
+{
+    background-color: #303641 !important;
+}
+.emojiPicker-3m1S-j
+{
+ background-color:#3b3f4b;
+}
+.guilds-1q_RqH .badge-1GsMF2.unread-count-badge, #app-mount .unread-count-channel-badge
+{
+ background-color: #5294e2;
+}
+.theme-dark .header-ykumBX .title-3pkaKd .recentMentionsPopout-2fmau1 .header-3LXPrb
+{
+ background-color: #303641;   
+
+}
+.theme-dark .wrapper-35wsBm
+{
+     background-color: #303641;   
+}
