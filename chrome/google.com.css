@@ -1,12 +1,21 @@
 body
 {
      background-color: #3b3f4b;
+    color:white;
 }
-#fbar
+p, span, h1, h2, .kno-ecr-pt, .izHQgf, .garHBe, div[role=heading], .gJBeNe, .vk_gy, .MA9Une, .w8qArf .fl, .Z0LcW, .C9iYEe, .vk_bk, .rXEgp, select
+{
+    color:white !important;
+}
+#fbar, .abup, .klbar
 {
     background: #303641;
     border-top: 1px solid #303641;
     color:#fff;
+}
+select
+{
+    background: #303641;
 }
 .ftl, #footer a
 {
@@ -24,7 +33,7 @@ color:#5294e2;
 {
 color:#5294e2;
 }
-a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .tbotu
+a:link, .w, #prs a:visited, #prs a:active, .q:active, .q:visited, .kl:active, .tbotu, a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b
 {
 color:#5294e2;
 }
@@ -70,7 +79,7 @@ li b
 {
     border-bottom: #3b3f4b;
 }
-.wf-b #cnt .g, body.vasq #resultStats
+.wf-b #cnt .g, body.vasq #resultStats, .Ndq8Rb, .w8qArf .fl
 {
     color:#fff;
 }
@@ -148,4 +157,69 @@ g-inner-card
 .sbhl
 {
     background: #3b3f4b;
+}
+.xpdbox 
+{
+    background-color: #303641;
+}
+.vk_ard:before
+{
+    border-top: 16px solid #3b3f4b;
+}
+.vk_ard:after
+{
+      border-top: 16px solid #5294e2;
+}
+.vk_ard
+{
+    background-color: rgba(0,0,0,0);
+}
+.vk_aru:before
+{
+    border-bottom: 16px solid #3b3f4b;
+}
+.vk_aru:after
+{
+      border-bottom: 16px solid #5294e2;
+}
+.vk_aru
+{
+    background-color: rgba(0,0,0,0);
+}
+.Mw2I7
+{
+    background-color: #303641;
+}
+.Mw2I7.LPW6zd
+{
+    background-color: #5294e2;
+}
+.rlc__slider, .rlc__slider-page
+{
+    background-color: #303641;
+}
+.rl_center
+{
+    border:none;
+}
+.iXdcH
+{
+    background: #5294e2;
+}
+.klitem.selected
+{
+    background-color: #3b3f4b;
+        border-bottom: 4px solid #5294e2;
+}
+.mlo-c
+{
+    background-color: #3b3f4b;
+}
+.klbar
+{
+    border:none;
+}
+.Qynugf
+{
+    color: #5294e2;
 }
