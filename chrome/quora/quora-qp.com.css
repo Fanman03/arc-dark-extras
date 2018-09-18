@@ -1,0 +1,56 @@
+:root {
+  --1-bg-color: #303641;
+  --2-bg-color: #3b3f4b; 
+  --1-txt-color:white;
+  --1-acc-color:#5294e2;
+}
+.rendered_qtext, .expanded_q_text, .suggested_edits_text, .qtext_editor_content, .inline_editor_content, .QuestionStats h3, .answer_draft_side_col h3, .grid_page h3, .ContentPageFeed .title
+{
+    color:  var(--1-txt-color);
+    font-family: Roboto, Segoe UI, sans-serif !important;
+}
+.ui_button_icon .icon_svg-stroke, .action_bar-inline_icon .icon_svg-stroke
+{
+    stroke: var(--1-txt-color);
+}
+.action_bar-inline_icon .icon_svg-fill_as_stroke
+{
+    stroke: var(--1-acc-color);
+    fill: var(--1-acc-color);
+}
+.question_related.list, .RelatedQuestions
+{
+    background-color: var(--2-bg-color);
+}
+.topic_pill, .view_more_topics_link
+{
+    background-color: var(--1-acc-color);
+    color: var(--1-txt-color);
+    border-radius: 0px;
+    border: 1px var(--1-bg-color);
+}
+.topic_pill a
+{
+    color: var(--1-txt-color);
+}
+.topic_pill .topic_remove
+{
+background-image: url(https://img.fanman03.ml/Fyxbj.png);
+}
+.ContentPageFeed
+{
+    background-color: var(--1-bg-color);
+}
+.ContentPageFeedStoryItem
+{
+    background-color: var(--2-bg-color);
+    border-radius:0px;
+}
+.ContentPageFeed .feed_item_overlay .read_more_link
+{
+background-color: var(--1-acc-color);
+}
+.ContentPageFeedStoryItem:hover .feed_item_overlay
+{
+   background-color: rgba(255,255,255,0.1);
+}

@@ -1,0 +1,247 @@
+:root {
+  --1-bg-color: #303641;
+  --2-bg-color: #3b3f4b; 
+  --1-txt-color:white;
+  --1-acc-color:#5294e2;
+}
+body
+{
+    background: var(--2-bg-color);
+    font-family: Roboto, Segoe UI, sans-serif !important;
+}
+div
+{
+    color: var(--1-txt-color) !important;
+    font-family: Roboto, Segoe UI, sans-serif !important;
+}
+a
+{
+    color: var(--1-acc-color);
+}
+.feed_item
+{
+        border-bottom: 1px solid var(--1-acc-color)
+}
+.feed_card_on
+{
+    background-color:var(--2-bg-color);
+}
+.SiteHeader
+{
+    background-color: var(--1-bg-color);
+    border: none;
+}
+.SiteHeader.new_header .ask_bar .LookupBarSelector .selector_input
+{
+    border-radius: 0;
+    border:1px var(--2-bg-color) solid;
+    background: var(--2-bg-color);
+    color: var(--1-txt-color);
+}
+.SiteHeader .header_logo a
+{
+    background-image: url(https://img.fanman03.ml/qblue.svg);
+}
+.SiteHeader .SiteHeaderNavItem .nav_item_link.selected .nav_item_icon .site_nav_icon-fill, .SiteHeader .site_header_nav_item .nav_item_link.selected .nav_item_icon .site_nav_icon-fill
+{
+    fill:var(--1-acc-color);
+    stroke: var(--1-acc-color);
+}
+.SiteHeader .SiteHeaderNavItem .nav_item_link.selected, .SiteHeader .site_header_nav_item .nav_item_link.selected
+{
+color: var(--1-acc-color);
+border-color: var(--1-acc-color);
+}
+.SiteHeaderBadge
+{
+  background-color: var(--1-acc-color); 
+}
+.feed_card_on .QuestionListItem .feed_item, .feed_card_on .AnswerListItem .feed_item, .feed_card_on .BoardListItem .feed_item, .feed_card_on .questions_feed .feed_item, .feed_card_on .RecentlyAskedQuestions .feed_item, .feed_card_on .HipriHumanA2ARequestsList .feed_item, .feed_card_on .LowpriHumanA2ARequestsList .feed_item, .feed_card_on .WritingListMain .WritingList.PagedList .feed_item, .feed_card_on .TribeItem .feed_item, .feed_card_on .TopicFaqSubPageMainList .feed_item, .feed_card_on .LeaderboardMain .feed_item, .feed_card_on .TopicManagePageMain .feed_item, .feed_card_on .TopicAllQuestionsPageMain .feed_item, .feed_card_on .TopicOrganizePageMain .feed_item, .feed_card_on .TopicLogPageMain .feed_item, .feed_card_on .TopicFollowersPageMain .feed_item, .feed_card_on .QuestionListItem.feed_item, .feed_card_on .AnswerListItem.feed_item, .feed_card_on .BoardListItem.feed_item, .feed_card_on .questions_feed.feed_item, .feed_card_on .RecentlyAskedQuestions.feed_item, .feed_card_on .HipriHumanA2ARequestsList.feed_item, .feed_card_on .LowpriHumanA2ARequestsList.feed_item, .feed_card_on .WritingListMain .WritingList.PagedList.feed_item, .feed_card_on .TribeItem.feed_item, .feed_card_on .TopicFaqSubPageMainList.feed_item, .feed_card_on .LeaderboardMain.feed_item, .feed_card_on .TopicManagePageMain.feed_item, .feed_card_on .TopicAllQuestionsPageMain.feed_item, .feed_card_on .TopicOrganizePageMain.feed_item, .feed_card_on .TopicLogPageMain.feed_item, .feed_card_on .TopicFollowersPageMain.feed_item, .main_feed .singleton_bundle, multifeed_bundle_story
+{
+    border-radius:0px;
+    border: 1px var(--1-bg-color);
+    color:var(--1-txt-color);
+    background-color:var(--1-bg-color);
+    font-family: Roboto, Segoe UI, sans-serif;
+}
+.feed_card_on:hover .Bundle:hover .singleton_bundle:hover .feed_item:hover,  .EditableListItem .NavListItem .HomeNavListItem .not_removable
+{
+    border-radius:0px;
+    border: 1px var(--1-acc-color); 
+    color:var(--1-txt-color);
+    background-color:var(--1-bg-color);
+    font-family: Roboto, Segoe UI, sans-serif;
+}
+.js-wf-loaded .ui_story_title_medium, .amp-page .ui_story_title_medium
+{
+    color:var(--1-txt-color);
+    font-family: Roboto, Segoe UI, sans-serif;
+}
+.ui_qtext_truncated_regular .ui_qtext_para, .ui_qtext_expanded .ui_qtext_para, .ui_qtext_truncated_regular .ui_qtext_image_wrapper, .ui_qtext_expanded .ui_qtext_image_wrapper, .ContentHeader .feed_item_answer_user .user, .ContentHeader .feed_item_answer_user .anon_user, .js-wf-loaded .ContentHeader .feed_item_answer_user, .amp-page .ContentHeader .feed_item_answer_user, .js-wf-loaded .comment_wrapper .comment .comment_contents .full_comment_text .comment_author_header .author_name .user, .js-wf-loaded .comment_wrapper .comment .comment_contents .full_comment_text .comment_author_header .author_name .anon_user, .js-wf-loaded .comment_wrapper .comment .comment_contents .full_comment_text .comment_author_header .author_name .IdentityNameCredential, .amp-page .comment_wrapper .comment .comment_contents .full_comment_text .comment_author_header .author_name .user, .amp-page .comment_wrapper .comment .comment_contents .full_comment_text .comment_author_header .author_name .anon_user, .amp-page .comment_wrapper .comment .comment_contents .full_comment_text .comment_author_header .author_name .IdentityNameCredential,.js-wf-loaded .qhgxgyhwabgqdsznchnn .bsvijqbyyrgblrmacvmn, .HyperLinkPreview .link_overlay, .js-wf-loaded .AddQuestionPrompt .AskQuestionButton, .js-wf-loaded .TribeAddQuestionPrompt .AskQuestionButton, .js-wf-loaded .UserShareHyperLinkPrompt .AskQuestionButton, .amp-page .AddQuestionPrompt .AskQuestionButton, .amp-page .TribeAddQuestionPrompt .AskQuestionButton, .amp-page .UserShareHyperLinkPrompt .AskQuestionButton, .js-wf-loaded .apbqxerfscfedgasjyam .iahffrqangqgrkjbilop, .js-wf-loaded .HyperLinkPreview .hyperlink_title, .amp-page .HyperLinkPreview .hyperlink_title, .js-wf-loaded .QuoraShareFeed .author_info .name_credential, .amp-page .QuoraShareFeed .author_info .name_credential, .ui_qtext_rendered_qtext, .QuoraShareFeed .author_info .name_credential .user, .AnswerCompact .truncated_answer .metadata .name_credential .user, .js-wf-loaded .AnswerCompact .truncated_answer .metadata .name_credential, .amp-page .AnswerCompact .truncated_answer .metadata .name_credential, .EditableList .EditableListItem>a, .EditableList .StaticListItem>a, .EditableList .list_empty>a, .Bundle .section_header .header_text .header_text_main, .Bundle .section_header .header_text .TopicNameSpan, .Bundle .section_header .header_text .header_text_main .user, .Bundle .section_header .header_text a.user,.js-wf-loaded .SuggestedUsersBundle .CarouselItem .item_text .name, .js-wf-loaded .SuggestedTopicsBundle .CarouselItem .item_text .name, .js-wf-loaded .SuggestedTribesBundle .CarouselItem .item_text .name, .js-wf-loaded .SuggestedUsersBundle .CarouselItem .item_text .name a, .js-wf-loaded .SuggestedTopicsBundle .CarouselItem .item_text .name a, .js-wf-loaded .SuggestedTribesBundle .CarouselItem .item_text .name a, .amp-page .SuggestedUsersBundle .CarouselItem .item_text .name, .amp-page .SuggestedTopicsBundle .CarouselItem .item_text .name, .amp-page .SuggestedTribesBundle .CarouselItem .item_text .name, .amp-page .SuggestedUsersBundle .CarouselItem .item_text .name a, .amp-page .SuggestedTopicsBundle .CarouselItem .item_text .name a, .amp-page .SuggestedTribesBundle .CarouselItem .item_text .name a, .ui_qtext_rendered_qtext>ol li, .ui_qtext_rendered_qtext>ul li, .ui_qtext_rendered_qtext blockquote>ol li, .ui_qtext_rendered_qtext blockquote>ul li, .Notif .notif_item .user, .Notif .notif_item .topic_name, .ui_qtext_rendered_qtext blockquote,.main_text, .ObjectCard .ObjectCard-header .user, .ObjectCard .ObjectCard-header .topic_name, .ObjectCard .ObjectCard-header .BoardName, .ObjectCard .ObjectCard-header .sig, .ObjectCard .ObjectCard-header .name_text, .ObjectCard .ObjectCard-header .user, .ObjectCard .ObjectCard-header .anon_user, .ObjectCard .ObjectCard-header .BoardName
+{
+    color:var(--1-txt-color);
+    font-family: Roboto, Segoe UI, sans-serif;
+}
+.js-wf-loaded .comment_wrapper .show_child_link, .amp-page .comment_wrapper .show_child_link
+{
+    font-family: Roboto, Segoe UI, sans-serif;
+}
+.icon_action_bar.sticky
+{
+    background-color:var(--1-bg-color);
+     border: 1px var(--1-bg-color);
+    box-shadow:0 -3px 2px -2px rgba(200,200,200,0);
+}
+.threaded_comments.answer_auto_expanded_comments
+{
+    background-color:var(--2-bg-color) !important;
+    background:var(--2-bg-color);
+}
+link_overlay
+{
+    color:var(--1-txt-color);
+}
+.feed_card_on .AddQuestionPrompt, .feed_card_on .UserShareHyperLinkPrompt
+{
+    border-radius:0px;
+    border: 1px var(--1-bg-color);
+    color:var(--1-txt-color);
+    background-color:var(--1-bg-color);
+    font-family: Roboto, Segoe UI, sans-serif;
+}
+.AnswerCompact .truncated_answer:hover
+{
+    background-color:var(--2-bg-color);
+}
+.AnswerCompact .truncated_answer
+{
+    background-color:var(--2-bg-color);
+    border-radius:0px;
+}
+.AnswerCompact .truncated_answer .answer_content_without_image, .AnswerCompact .expanded_answer
+{
+    background-color:var(--2-bg-color);
+    border-radius:0px;
+    border: 1px var(--1-bg-color);
+}
+.feed_card_on .Bundle .full_bundle
+{
+    border-radius:0px;
+    border: 1px var(--1-bg-color);
+    color:var(--1-txt-color);
+    background-color:var(--1-bg-color);
+    font-family: Roboto, Segoe UI, sans-serif;
+}
+.icon_action_bar-button:hover
+{
+    background-color: var(--2-bg-color); 
+    border-radius:0px;
+}
+.web_page .Editor.Comment
+{
+    background-color:var(--1-bg-color);
+    border-radius:0px;
+    border: 1px var(--1-bg-color);
+}
+.comment_wrapper .show_child_link
+{
+    background-color:var(--1-bg-color);
+    border-radius:0px;
+    border: 1px var(--1-bg-color);
+}
+.comment_wrapper .show_child_link:hover
+{
+    background-color:var(--1-bg-color);
+    border-radius:0px;
+    border: 1px var(--1-bg-color);
+}
+.CarouselBundle .container
+{
+    background-color:var(--2-bg-color);
+    border-radius:0px;
+    border: 1px var(--1-bg-color);
+}
+.CarouselBundle .carousel_item
+{
+    border: 1px var(--1-bg-color);
+}
+.follow_button, .edit_topics_button, .ama_a2a_question, .tribe_submit_button, .Topic.Button, .Session.Button, .User.Button, .PileOnRequest.Button, .SiteHeader.new_header .right_contents .ask_wrapper .AskQuestionButton, .SiteHeader.new_header .right_contents .ask_wrapper .AskQuestionButton:hover, .submit_button, .primary_button, .submit_button, .primary_button:hover, .EditableList .nav_item_selected a, .EditableList .StaticListItem>.selected
+{
+    background-color: var(--1-acc-color); 
+    color: var(--1-txt-color);
+    border-radius:0px;
+    border: 1px var(--1-bg-color);
+}
+.comment_preview_text > span, .comment_snippet > span > span
+{
+    color:var(--1-txt-color);
+    font-family: Roboto, Segoe UI, sans-serif !important;
+}
+.user
+{
+    font-family: Roboto, Segoe UI, sans-serif !important;
+}
+.SiteHeader .NotifsHoverMenuContents .dropdown, .SiteHeader .NotifsHoverMenuContents .dropdown .Notif.unseen
+{
+    background-color: var(--1-bg-color);
+}
+.comments_preview_toggle
+{
+    background-color:var(--2-bg-color);
+    color: var(--1-txt-color);
+}
+.comments_preview_toggle:hover
+{
+    background-color:var(--1-bg-color);
+    color: var(--1-txt-color);
+}
+.feed_card_on .Bundle .singleton_bundle .feed_item
+{
+    background-color: var(--1-bg-color);
+    border-radius:0px;
+    border: none;
+}
+.web_page .ui_button--FlatStyle:focus, .web_page .ui_button--StackedStyle:focus, .web_page .ui_button--FlatStyle:hover, .web_page .ui_button--StackedStyle:hover
+{
+    border-radius:0px;
+    background-color: var(--2-bg-color); 
+}
+.hover_menu .ObjectCard
+{
+    background-color: var(--2-bg-color);
+    border:none;
+    border-radius: 0px;
+}
+.HyperLinkPreviewCompact:hover
+{
+    background-color:var(--1-bg-color);
+}
+.HyperLinkPreviewCompact.is_not_expanded .hyperlink_image
+{
+    border-radius: 0px;
+}
+.AboutListItem .main_text
+{
+color: var(--1-txt-color);
+}
+.ObjectCard .ObjectCard-body a
+{
+color: var(--1-acc-color);
+}
+.SiteHeader .SiteHeaderNavItem .nav_item_link .nav_item_icon .site_nav_icon-fill, .SiteHeader .site_header_nav_item .nav_item_link .nav_item_icon .site_nav_icon-fill, .SiteHeader .network_button_wrapper .nav_item_link .nav_item_icon .site_nav_icon-fill
+{
+    fill: var(--1-txt-color);
+    stroke: var(--1-txt-color);
+}
+.SiteHeader .SiteHeaderNavItem .nav_item_link.hover, .SiteHeader .site_header_nav_item .nav_item_link.hover, .SiteHeader .network_button_wrapper .nav_item_link.hover, .SiteHeader .SiteHeaderNavItem .nav_item_link:hover, .SiteHeader .site_header_nav_item .nav_item_link:hover, .SiteHeader .network_button_wrapper .nav_item_link:hover, .SiteHeader .SiteHeaderNavItem .nav_item_link:active, .SiteHeader .site_header_nav_item .nav_item_link:active, .SiteHeader .network_button_wrapper .nav_item_link:active
+{
+    background-color: var(--2-bg-color);
+}
+.SiteHeader .SiteHeaderNavItem .nav_item_link, .SiteHeader .site_header_nav_item .nav_item_link, .SiteHeader .network_button_wrapper .nav_item_link
+{
+   color: var(--1-txt-color); 
+}
+.SiteHeader.new_header .ask_bar .LookupBarSelector .selector_input::placeholder
+{
+   color: var(--1-txt-color); 
+}

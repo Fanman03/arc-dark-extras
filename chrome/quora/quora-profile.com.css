@@ -1,0 +1,55 @@
+:root {
+  --1-bg-color: #303641;
+  --2-bg-color: #3b3f4b; 
+  --1-txt-color:white;
+  --1-acc-color:#5294e2;
+}
+.ContentWrapper {
+    background-color: var(--2-bg-color);
+}
+.EditableList .nav_item_selected a, .EditableList .StaticListItem>.selected
+{
+        background: var(--1-acc-color);
+}
+.TopicPreviewBioAnswers .topic_name, .grid_page h3, .AboutListItem .main_text, .question_text_edit .qtext_para, .question_text .qtext_para, .question_text_wrapper .qtext_para, .BoardItemTitle .qtext_para, .BoardName .qtext_para, .QuestionMergeCandidate .qtext_para, .QuestionText .qtext_para, .modal_header .qtext_para, .ObjectCard .ObjectCard-header .user, .ObjectCard .ObjectCard-header .topic_name, .ObjectCard .ObjectCard-header .BoardName, .ObjectCard .ObjectCard-header .sig, .user, .js-wf-loaded .ProfileNameAndSig .IdentitySig, .js-wf-loaded .ProfileNameAndSig .IdentityCredential, .amp-page .ProfileNameAndSig .IdentitySig, .amp-page .ProfileNameAndSig .IdentityCredential
+{
+    color: var(--1-txt-color);
+    font-family: 'Roboto'
+}
+.AddCredentialListItem .main_text a
+{
+    color: var(--1-acc-color);
+}
+.follow_button.unfollow_button .count, .edit_topics_button.unfollow_button .count, .ama_a2a_question.unfollow_button .count, .tribe_submit_button.unfollow_button .count, .Topic.Button.unfollow_button .count, .Session.Button.unfollow_button .count, .User.Button.unfollow_button .count, .PileOnRequest.Button.unfollow_button .count, .follow_button.unfollow_question .count, .edit_topics_button.unfollow_question .count, .ama_a2a_question.unfollow_question .count, .tribe_submit_button.unfollow_question .count, .Topic.Button.unfollow_question .count, .Session.Button.unfollow_question .count, .User.Button.unfollow_question .count, .PileOnRequest.Button.unfollow_question .count, .follow_button.pressed .count, .edit_topics_button.pressed .count, .ama_a2a_question.pressed .count, .tribe_submit_button.pressed .count, .Topic.Button.pressed .count, .Session.Button.pressed .count, .User.Button.pressed .count, .PileOnRequest.Button.pressed .count, .follow_button.disabled .count, .edit_topics_button.disabled .count, .ama_a2a_question.disabled .count, .tribe_submit_button.disabled .count, .Topic.Button.disabled .count, .Session.Button.disabled .count, .User.Button.disabled .count, .PileOnRequest.Button.disabled .count
+{
+    color: var(--1-txt-color);
+}
+.BlogPagedListItem .ObjectCard-footer .write_post
+{
+    background-color: #7c818c;
+    background: #7c818c;
+    color: var(--1-txt-color);
+    min-width: 96px;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    transition: opacity ease-in-out 100ms,color ease-in-out 100ms,background-color ease-in-out 100ms,border-color ease-in-out 100ms;
+    border-radius: 0px;
+    display: inline-block;
+    font-weight: 500;
+    outline: 0;
+    padding: 3px 5px 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid #7c818c;
+}
+.AboutListItem .main_text a
+{
+    color:var(--1-txt-color);
+}
