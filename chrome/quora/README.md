@@ -1,4 +1,5 @@
-#Quora Theme Install Guide#
+# Quora Theme Install Guide
+
 **quora-main.com.css**
 <br>
 This is the main CSS file. It is required and should apply to the whole domain https://www.quora.com
