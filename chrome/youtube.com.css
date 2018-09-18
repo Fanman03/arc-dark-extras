@@ -1,0 +1,111 @@
+:root {
+  --1-bg-color: #303641;
+  --2-bg-color: #3b3f4b; 
+  --1-acc-color: #5294e2;
+  --1-txt-color: white;
+}
+
+.style-scope .ytd-masthead
+{
+    background-color: var(--1-bg-color);
+}
+ytd-searchbox[mode=legacy] #container.ytd-searchbox, ytd-searchbox[mode=legacy-centered] #container.ytd-searchbox
+{
+    background-color: var(--2-bg-color);
+}
+ytd-browse
+{
+    background-color: var(--2-bg-color);
+}
+ytd-grid-video-renderer.grid #byline.ytd-grid-video-renderer, [meta-block].grid.ytd-grid-video-renderer #byline.ytd-grid-video-renderer
+{
+    --yt-endpoint-color: var(--1-acc-color);
+}
+paper-button.ytd-subscribe-button-renderer
+{
+    background-color:var(--1-acc-color);
+}
+ytd-guide-entry-renderer[active] .guide-icon.ytd-guide-entry-renderer, ytd-guide-entry-renderer[is-guide-refresh][active] .guide-icon.ytd-guide-entry-renderer
+{
+    color:var(--1-acc-color);
+}
+.ytd-topbar-logo-renderer:first-child
+{
+fill:var(--1-acc-color);
+}
+#notification-count.ytd-notification-topbar-button-renderer
+{
+    background-color:var(--1-acc-color);
+}
+#guide-content.ytd-app
+{
+    background-color: var(--1-bg-color);
+}
+style-scope ytd-watch-flexy
+{
+    background-color: var(--2-bg-color);
+}
+ytd-watch-flexy, .style-scope .ytd-watch-flexy
+{
+    background-color: var(--2-bg-color) !important;
+}
+#movie_player
+{
+    background-color: #000;
+}
+.ytp-swatch-background-color
+{
+    background-color:var(--1-acc-color);
+}
+.ytp-settings-button.ytp-hd-quality-badge:after, .ytp-settings-button.ytp-4k-quality-badge:after, .ytp-settings-button.ytp-5k-quality-badge:after, .ytp-settings-button.ytp-8k-quality-badge:after
+{
+  background-color:var(--1-acc-color);  
+}
+.style-scope .ytd-browse, ytd-browse[page-subtype="channels"]
+{
+   background-color: var(--2-bg-color);
+}
+#channel-header.ytd-c4-tabbed-header-renderer
+{
+    background-color:var(--2-bg-color);
+}
+#tabs-inner-container.ytd-c4-tabbed-header-renderer
+{
+    background-color: var(--1-bg-color);   
+}
+#header .ytd-multi-page-menu-renderer
+{
+    background-color: var(--1-bg-color);
+}
+.menu-container.ytd-multi-page-menu-renderer
+{
+    background-color:var(--2-bg-color);
+}
+#progress.ytd-thumbnail-overlay-resume-playback-renderer
+{
+    background-color:var(--1-acc-color);
+}
+.ytp-chrome-controls .ytp-button[aria-pressed]:after
+{
+    background-color:var(--1-acc-color);
+}
+#byline.ytd-video-meta-block
+{
+    color:var(--1-acc-color);
+}
+yt-icon.ytd-badge-supported-renderer 
+{
+    color:var(--1-acc-color);
+}
+#owner-name.ytd-video-owner-renderer
+{
+    color:var(--1-acc-color) !important;
+}
+ytd-rich-metadata-renderer
+{
+    background-color: var(--1-acc-color);
+}
+#call-to-action.ytd-rich-metadata-renderer
+{
+    color:var(--1-bg-color);
+}
