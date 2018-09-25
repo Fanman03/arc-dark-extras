@@ -109,3 +109,45 @@ ytd-rich-metadata-renderer
 {
     color:var(--1-bg-color);
 }
+.sbsb_a, .sbdd_b
+{
+   background-color: var(--2-bg-color);     
+   color: var(--1-txt-color);
+   border: none;
+}
+.sbpqs_a, .sbqs_c
+{
+    color: var(--1-txt-color);
+}
+.sbsb_d
+{
+    background-color: var(--1-acc-color);     
+}
+.sbsb_i
+{
+   color: var(--1-acc-color);
+}
+.sbsb_d > * .sbsb_i
+{
+    color: var(--1-txt-color);   
+}
+.sbfl_b
+{
+    background-color: var(--2-bg-color);   
+}
+#items.yt-multi-page-menu-section-renderer > *.yt-multi-page-menu-section-renderer:hover
+{
+    background-color: var(--1-acc-color);
+}
+#items.yt-multi-page-menu-section-renderer > *.yt-multi-page-menu-section-renderer:hover > * .metadata.ytd-notification-renderer:hover
+{
+    color: var(--1-txt-color); 
+}
+paper-listbox:hover > ytd-menu-service-item-renderer:hover
+{
+    background-color: var(--1-acc-color);
+}
+paper-listbox
+{
+    background-color: var(--1-bg-color);
+}
