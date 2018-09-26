@@ -1,0 +1,83 @@
+:root {
+  --1-bg-color: #303641;
+  --2-bg-color: #3b3f4b; 
+  --1-txt-color:white;
+  --1-acc-color:#5294e2;
+}
+.body--home, .site-wrapper--home
+{
+    background: var(--2-bg-color);
+    font-family: Roboto, Segoe UI, sans-serif !important;
+}
+.result__snippet, .module__text, .module__title__link, .module__title__link:hover, .module__title__link:active, .module__title__link:visited
+{
+    color: var(--1-txt-color);
+}
+.svg .logo_homepage
+{
+    background-image: url(https://img.fanman03.ml/ddg.svg);
+}
+.tag-home__link, .tag-home__link:hover, .tag-home__link:visited, .tag-home__link:active
+{
+    color: var(--1-acc-color);
+}
+.search:hover .search__button, .search__input:focus ~ .search__button, .search--header.has-text.search--hover .search__button, .search--header.has-text.search--focus .search__button, .search--home.has-text .search__button
+{
+    background-color: var(--1-acc-color);
+}
+.search, .search--adv
+{
+    background-color: var(--1-bg-color);
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    color: var(--1-txt-color);
+}
+.search__input, .search__input--adv
+{
+    color: var(--1-txt-color);
+}
+.header-wrap
+{
+    background: var(--2-bg-color);
+}
+.zcm__link.is-active {
+    color: var(--1-acc-color);
+    border-bottom: solid 1px var(--1-acc-color);
+}
+.svg .header__logo
+{
+    background-image: url(https://img.fanman03.ml/ddgs.svg);   
+}
+.content-wrap
+{
+    background: var(--1-bg-color);
+    color: var(--1-txt-color);
+}
+.result__a:visited, .result__a:visited:hover, .result__a, .result__a:hover
+{
+    color: var(--1-acc-color);
+}
+.result.highlight
+{
+    background: var(--2-bg-color);
+}
+.search-filters-wrap:before, .search-filters-wrap:after
+{
+    display:none;
+}
+.dropdown__button, .dropdown__button:focus, .dropdown__button:visited, .dropdown.is-open .dropdown__button
+{
+    color: var(--1-acc-color);
+}
+.dropdown__button:hover, .dropdown__button:focus, .dropdown__button:visited, .dropdown.is-open .dropdown__button
+{
+   color: var(--1-txt-color); 
+}
+.results--sidebar
+{
+    background-color: var(--2-bg-color);
+}
