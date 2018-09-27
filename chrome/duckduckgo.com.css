@@ -4,7 +4,7 @@
   --1-txt-color:white;
   --1-acc-color:#5294e2;
 }
-.body--home, .site-wrapper--home
+.body--home, .site-wrapper--home, body
 {
     background: var(--2-bg-color);
     font-family: Roboto, Segoe UI, sans-serif !important;
@@ -12,6 +12,7 @@
 .result__snippet, .module__text, .module__title__link, .module__title__link:hover, .module__title__link:active, .module__title__link:visited
 {
     color: var(--1-txt-color);
+    font-family: Roboto, Segoe UI, sans-serif !important;
 }
 .svg .logo_homepage
 {
@@ -65,19 +66,83 @@
 {
     background: var(--2-bg-color);
 }
-.search-filters-wrap:before, .search-filters-wrap:after
+.search-filters-wrap:before, .search-filters-wrap:after, .metabar__dropdowns-wrap:before, .metabar__dropdowns-wrap:after
 {
     display:none;
 }
-.dropdown__button, .dropdown__button:focus, .dropdown__button:visited, .dropdown.is-open .dropdown__button
+.dropdown__button, .dropdown__button:focus, .dropdown__button:visited, .dropdown.is-open .dropdown__button, .result__url, .result__url:active, .result__url:visited:focus, .module__official-url, .module__more-at, .module__more-at-bottom, .module__official-url:hover, .module__more-at:hover, .module__more-at-bottom:hover, .no-touch .zcm__link:hover, .tile__title
 {
     color: var(--1-acc-color);
+    font-family: Roboto, Segoe UI, sans-serif !important;
 }
-.dropdown__button:hover, .dropdown__button:focus, .dropdown__button:visited, .dropdown.is-open .dropdown__button
+.dropdown__button:hover, .dropdown__button:focus, .dropdown__button:visited, .dropdown.is-open .dropdown__button, .about-info-box__info-value, .about-profiles__link, .about-profiles__link:hover, .about-profiles__link:visited, .about-profiles__link:active, .zcm__link, .zcm__link:focus, .zcm__link:hover, .video-source, .result__timestamp
 {
    color: var(--1-txt-color); 
+   font-family: Roboto, Segoe UI, sans-serif !important;
 }
 .results--sidebar
 {
     background-color: var(--2-bg-color);
+}
+.acp,  .acp-wrap, .search__autocomplete
+{
+    color: var(--1-txt-color); 
+
+    background: var(--1-bg-color);
+    border: none;
+}
+.acp--highlight
+{
+    background: var(--1-acc-color);
+}
+.acp strong, .acp--bang strong, .result__snippet b, .result__snippet strong
+{
+    color: var(--1-txt-color); 
+    font-weight: bold;
+    font-family: Roboto, Segoe UI, sans-serif !important;
+}
+.about-info-box__info-label
+{
+    color: var(--1-acc-color);
+}
+.result__url:hover, .result__url:active:hover, .result__url:visited:focus
+{
+    font-weight: bold;
+    color: var(--1-acc-color);
+}
+.module
+{
+    border: 1px solid var(--1-txt-color);
+}
+.about-info-box__info-row, .about-info-box__link-row
+{
+    border-top: 1px solid var(--1-txt-color);
+}
+.no-touch .zcm__link.is-active:hover, .no-touch .zcm__link.is-active:hover:active, .no-touch .zcm__link.is-active:focus:active,  .no-touch .zcm__link:hover:active, .no-touch .zcm__link:focus:active
+{
+    color: var(--1-txt-color); 
+    font-family: Roboto, Segoe UI, sans-serif !important;
+}
+.zci
+{
+    background: var(--1-bg-color);
+}
+.tile, .tile--s, .tile--info
+{
+    background: var(--2-bg-color);
+    border: none;
+}
+.feedback-btn__send, .feedback-btn--clicked
+{
+    border-radius: 0;
+    border:1px var(--2-bg-color) solid;
+    background: var(--1-acc-color);
+    color: var(--1-txt-color);
+}
+.feedback-btn__send:hover, .feedback-btn--clicked:hover
+{
+    border-radius: 0;
+    border:1px var(--2-bg-color) solid;
+    background: var(--1-acc-color);
+    color: var(--2-bg-color);
 }
