@@ -118,12 +118,12 @@
 {
     border-top: 1px solid var(--1-txt-color);
 }
-.no-touch .zcm__link.is-active:hover, .no-touch .zcm__link.is-active:hover:active, .no-touch .zcm__link.is-active:focus:active,  .no-touch .zcm__link:hover:active, .no-touch .zcm__link:focus:active
+.no-touch .zcm__link.is-active:hover, .no-touch .zcm__link.is-active:hover:active, .no-touch .zcm__link.is-active:focus:active,  .no-touch .zcm__link:hover:active, .no-touch .zcm__link:focus:active, .text--primary, .tx-clr--dk, .tx-clr--slate, .footer__text, .footer__title
 {
     color: var(--1-txt-color); 
     font-family: Roboto, Segoe UI, sans-serif !important;
 }
-.zci
+.zci, .bg-tile
 {
     background: var(--1-bg-color);
 }
@@ -132,17 +132,31 @@
     background: var(--2-bg-color);
     border: none;
 }
-.feedback-btn__send, .feedback-btn--clicked
+.feedback-btn__send, .feedback-btn--clicked, .btn, .button, .btn--icon, .btn--top, .header__button, .header__button--menu
 {
     border-radius: 0;
     border:1px var(--2-bg-color) solid;
     background: var(--1-acc-color);
     color: var(--1-txt-color);
 }
-.feedback-btn__send:hover, .feedback-btn--clicked:hover
+.feedback-btn__send:hover, .feedback-btn--clicked:hover, .button:hover, .result--more__btn:hover
 {
     border-radius: 0;
     border:1px var(--2-bg-color) solid;
     background: var(--1-acc-color);
     color: var(--2-bg-color);
+}
+.footer
+{
+    background: var(--2-bg-color);
+    border-top: 1px solid var(--1-acc-color);
+}
+.bg-clr--white
+{
+    background: var(--1-bg-color);
+    border: 1px solid var(--1-txt-color);
+}
+.header__button--menu
+{
+    background: rgba(0,0,0,0);
 }
